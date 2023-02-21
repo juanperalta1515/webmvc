@@ -4,20 +4,48 @@
 
     <div class="jumbotron">
         <ul>
-         <li class="logotipo" runat="server" id="logotipo">
+         <li runat="server" id="logo">
                 <img src="App_LocalResources/output-onlinegiftools.gif" width="600" height="200"/>
             </li>
             </ul>
-        <ul class="nav navbar-nav navbar-left">
-           
-        </ul>
-        <p class="lead">Welcome to Nothing Games — your one-stop site for the best Sex browser games with more porn games added daily! Whether 18+ teen, new ideas for a roleplay scene, or if you're exploring ideas outside your boundaries you can always find it here on the newly improved NOTHING GAMES.
+      
+        <div class="row">
+        <div class="col-md-12">
+            <h3>CATEGORIES</h3>
+             <aside class="col-12 col-sm-12 col-md-12 col-lg-3 list_sideBar">
+            <p>
+                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">LESBIAN &raquo;</a>
+            </p>
+            <p>
+                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">HARDCORE PORN &raquo;</a>
+            </p>
+            <p>
+                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">BLOWJOB &raquo;</a>
+            </p>
+            <p>
+                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">BIG DICKS &raquo;</a>
+            </p>
+            <p>
+                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">BIG TITS &raquo;</a>
+            </p>
+<p>
+                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">ADULTS &raquo;</a>
+            </p>
+                 </aside>
+            </div>
+            
+        
+       
+         
+        <div class="col-md-8 "> 
+
+        <p style="border:1px solid ; padding:20px" >Welcome to Nothing Games — your one-stop site for the best Sex browser games with more porn games added daily! Whether 18+ teen, new ideas for a roleplay scene, or if you're exploring ideas outside your boundaries you can always find it here on the newly improved NOTHING GAMES.
 No matter your kink, we have the link and everything but the kitchen sink—if you're experiencing problems, issues, or have any suggestions or ideas send them our way and tell us what you think.</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Read More &raquo;</a></p>
     </div>
-
+           
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-2">
             <h2>Getting started</h2>
             <p>
                 ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
@@ -29,6 +57,7 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
         </div>
         <div class="col-md-4">
             <h2>Get more Games</h2>
+            
             <p>
                 NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
             </p>
@@ -44,6 +73,8 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
             <p>
                 <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301950">See more here &raquo;</a>
             </p>
+        </div>
+         </div>
         </div>
     </div>
 
