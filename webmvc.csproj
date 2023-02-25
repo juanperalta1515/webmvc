@@ -237,6 +237,12 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Views\Adults.aspx" />
+    <Content Include="Views\BigDick.aspx" />
+    <Content Include="Views\BigTits.aspx" />
+    <Content Include="Views\BlowJob.aspx" />
+    <Content Include="Views\HardcorePorn.aspx" />
+    <Content Include="Views\Lesbian.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -400,6 +406,48 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Adults.aspx.cs">
+      <DependentUpon>Adults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Adults.aspx.designer.cs">
+      <DependentUpon>Adults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BigDick.aspx.cs">
+      <DependentUpon>BigDick.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\BigDick.aspx.designer.cs">
+      <DependentUpon>BigDick.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BigTits.aspx.cs">
+      <DependentUpon>BigTits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\BigTits.aspx.designer.cs">
+      <DependentUpon>BigTits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BlowJob.aspx.cs">
+      <DependentUpon>BlowJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\BlowJob.aspx.designer.cs">
+      <DependentUpon>BlowJob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HardcorePorn.aspx.cs">
+      <DependentUpon>HardcorePorn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\HardcorePorn.aspx.designer.cs">
+      <DependentUpon>HardcorePorn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Lesbian.aspx.cs">
+      <DependentUpon>Lesbian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Lesbian.aspx.designer.cs">
+      <DependentUpon>Lesbian.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

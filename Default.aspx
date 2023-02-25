@@ -14,28 +14,27 @@
             <h3>CATEGORIES</h3>
              <aside class="col-12 col-sm-12 col-md-12 col-lg-3 list_sideBar">
             <p>
-                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">LESBIAN &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~/Views/Lesbian">LESBIAN &raquo;</a>
+                
             </p>
             <p>
-                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">HARDCORE PORN &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~/Views/HardcorePorn">HARDCORE PORN &raquo;</a>
             </p>
             <p>
-                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">BLOWJOB &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~/Views/BlowJob">BLOWJOB &raquo;</a>
             </p>
             <p>
-                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">BIG DICKS &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~/Views/BigDicks">BIG DICKS &raquo;</a>
             </p>
             <p>
-                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">BIG TITS &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~/BigTits">BIG TITS &raquo;</a>
             </p>
 <p>
-                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301948">ADULTS &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~/Adults">ADULTS &raquo;</a>
             </p>
                  </aside>
             </div>
             
-        
-       
          
         <div class="col-md-8 "> 
 
