@@ -1,14 +1,14 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="webmvc._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
-    <div class="jumbotron">
+    
+   <div class="jumbotron">
         <ul>
-         <li runat="server" id="logo">
-                <img src="App_LocalResources/output-onlinegiftools.gif" width="600" height="200"/>
+            <li class="container" id="logo">
+                <img src="App_Themes/output-onlinegiftools.gif" width="420" height="220" margin-left="500px" />
             </li>
-            </ul>
-      
+
+        </ul>
         <div class="row">
         <div class="col-md-12">
             <h3>CATEGORIES</h3>
@@ -27,10 +27,10 @@
                 <a class="btn btn-primary" runat="server" href="~/Views/BigDicks">BIG DICKS &raquo;</a>
             </p>
             <p>
-                <a class="btn btn-primary" runat="server" href="~/BigTits">BIG TITS &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~/Views/BigTits">BIG TITS &raquo;</a>
             </p>
 <p>
-                <a class="btn btn-primary" runat="server" href="~/Adults">ADULTS &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~//ViewsAdults">ADULTS &raquo;</a>
             </p>
                  </aside>
             </div>
@@ -76,5 +76,12 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
          </div>
         </div>
     </div>
-
+    <style>
+        logo{
+            margin-left:500px;
+            margin-right:500px;
+        }
+    </style>
+     
 </asp:Content>
+

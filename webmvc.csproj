@@ -452,8 +452,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="App_GlobalResources\" />
+    <Folder Include="App_GlobalResources\App_LocalResources\" />
     <Folder Include="App_LocalResources\" />
+    <Folder Include="App_Themes\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>

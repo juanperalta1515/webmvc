@@ -16,7 +16,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
-<body>
+<body dir="auto">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -75,6 +75,8 @@
             </div>
         </div>
         <div class="container body-content">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4307851680047427"
+     crossorigin="anonymous"></script>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
