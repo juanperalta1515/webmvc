@@ -38,8 +38,6 @@ namespace webmvc.Models
         {
             return new ApplicationDbContext();
         }
-
-        public System.Data.Entity.DbSet<webmvc.Models.juegos> juegos { get; set; }
     }
 }
 
