@@ -81,7 +81,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Nothing Games</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Nothin Games</p>
             </footer>
         </div>
     </form>
