@@ -47,13 +47,7 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
         <div class="col-md-4">
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-primary" href="https://go.microsoft.com/fwlink/?LinkId=301950">See more here &raquo;</a>
-            </p>
+            
         </div>
          </div>
         </div>
