@@ -81,7 +81,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Nothin Games</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Nothin Games, oure materials is free of charge!</p>
             </footer>
         </div>
     </form>
