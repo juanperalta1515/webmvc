@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace webmvc.Views
 {
-    public partial class Adults : System.Web.UI.Page
+    public partial class Adults : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

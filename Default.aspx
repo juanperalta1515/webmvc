@@ -24,13 +24,13 @@
                 <a class="btn btn-primary" runat="server" href="~/Views/BlowJob">BLOWJOB &raquo;</a>
             </p>
             <p>
-                <a class="btn btn-primary" runat="server" href="~/Views/BigDicks">BIG DICKS &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~/Views/BigDick">BIG DICKS &raquo;</a>
             </p>
             <p>
                 <a class="btn btn-primary" runat="server" href="~/Views/BigTits">BIG TITS &raquo;</a>
             </p>
 <p>
-                <a class="btn btn-primary" runat="server" href="~//ViewsAdults">ADULTS &raquo;</a>
+                <a class="btn btn-primary" runat="server" href="~//Views/Adults">ADULTS &raquo;</a>
             </p>
                  </aside>
             </div>

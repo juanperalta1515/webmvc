@@ -1,4 +1,5 @@
-﻿<%@ Page Title="Adults" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"  CodeBehind="Adults.aspx.cs" Inherits="webmvc.Views._Default" %>
+﻿<%@ Page Title="Adults" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"  CodeBehind="Adults.aspx.cs" Inherits="webmvc._Default" %>
+
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div>

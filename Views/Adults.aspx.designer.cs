@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace webmvc.Views
+namespace webmvc
 {
 
 
