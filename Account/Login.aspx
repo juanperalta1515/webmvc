@@ -35,7 +35,7 @@
                         <div class="col-md-offset-2 col-md-10">
                             <div class="checkbox">
                                 <asp:CheckBox runat="server" ID="RememberMe" />
-                                <asp:Label runat="server" AssociatedControlID="RememberMe">¿Recordar cuenta?</asp:Label>
+                                <asp:Label runat="server" AssociatedControlID="RememberMe">¿Remember Count?</asp:Label>
                             </div>
                         </div>
                     </div>
