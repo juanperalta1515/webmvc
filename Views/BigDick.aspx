@@ -7,7 +7,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div>
      <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/9d8wWcJLnFI" frameborder="0" allowfullscreen=""></iframe>
+    <iframe allowfullscreen="false" src="https://www.gamcore.com/games/inner_bimbo/fgn.cdn.serverable.com/common/flashes/nf/inner_bimbo/index.html" frameborder="1200" width="1050" height="450" scrolling="yes" onscroll="80px" ></iframe>
 </div>
  </div>
  <div><a>Description</a></div>
@@ -16,8 +16,8 @@
      <style>
 		.comment {
 			border: 1px solid black;
-			padding: 10px;
-			margin-bottom: 10px;
+			padding: 0px;
+			margin-bottom: 50px;
 		}
 	</style>
 
@@ -66,15 +66,20 @@
     .embed-container {
     position: relative;
     padding-bottom: 75%;
-    height: 0;
+    height: 5px;
+    
+    min-width:fit-content;
     overflow: hidden;
 }
 .embed-container iframe {
     position: absolute;
     top:0;
     left: 0;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 80%;
+    margin-bottom:0px;
+    scroll-margin-top:50px;
+    margin-top:0px;
 }
   </style>
 

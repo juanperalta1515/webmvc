@@ -17,7 +17,7 @@
                 <h4>Cambiar la configuración de la cuenta</h4>
                 <hr />
                 <dl class="dl-horizontal">
-                    <dt>Contraseña:</dt>
+                    <dt>Password:</dt>
                     <dd>
                         <asp:HyperLink NavigateUrl="/Account/ManagePassword" Text="[Change]" Visible="false" ID="ChangePassword" runat="server" />
                         <asp:HyperLink NavigateUrl="/Account/ManagePassword" Text="[Create]" Visible="false" ID="CreatePassword" runat="server" />

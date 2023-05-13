@@ -4,8 +4,11 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div>
      <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/9d8wWcJLnFI" frameborder="0" allowfullscreen=""></iframe>
-</div>
+        
+    <iframe src="https://fgn.cdn.serverable.com/common/flashes/nf/therapist/index.html" frameborder="50" ></iframe>
+</div> <a href="https://fgn.cdn.serverable.com/flashes/nf/therapist/index.html" title="Al blog de recursos de campusMVP">Ir al blog de campusMVP</a>
+     <p><a<link rel="image_src" href="https://fgn.cdn.serverable.com/common/flashes/cc/p/pokesluts.jpg" /></a></p>
+      <p><a <link rel="alternate" href="https://fgn.cdn.serverable.com/common/flashes/nf/therapist/index.html"/> class="btn btn-primary btn-lg">Therapist &raquo;</a></p>
  </div>
  <div><a>Description</a></div>
  
@@ -67,7 +70,7 @@
     overflow: hidden;
 }
 .embed-container iframe {
-    position: absolute;
+    position: center;
     top:0;
     left: 0;
     width: 90%;
