@@ -7,7 +7,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div>
      <div class="embed-container">
-    <iframe allowfullscreen="false" src="https://www.gamcore.com/games/inner_bimbo/fgn.cdn.serverable.com/common/flashes/nf/inner_bimbo/index.html" frameborder="1200" width="1050" height="450" scrolling="yes" onscroll="80px" ></iframe>
+    <iframe allowfullscreen="false" src="https://mopoga.com/embed/patriarch/" frameborder="1200" width="1050" height="10" scrolling="yes" onscroll="10px" ></iframe>
 </div>
  </div>
  <div><a>Description</a></div>
@@ -76,10 +76,10 @@
     top:0;
     left: 0;
     width: 100%;
-    height: 80%;
+    height: 90%;
     margin-bottom:0px;
-    scroll-margin-top:50px;
-    margin-top:0px;
+    scroll-margin-top:0px;
+    margin-top:50px;
 }
   </style>
 
