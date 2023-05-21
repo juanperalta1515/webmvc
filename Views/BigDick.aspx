@@ -37,7 +37,8 @@
 		
 		<input type="submit" value="Submit">
 	</div>
-	<div id="comments"></div>
+	<div
+        id="comments"></div>
 	<script>
         function submitComment(event) {
             event.preventDefault();

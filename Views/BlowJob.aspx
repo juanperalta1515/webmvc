@@ -3,7 +3,14 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div>
      <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/9d8wWcJLnFI" frameborder="0" allowfullscreen=""></iframe>
+    <iframe id="myIframe" src="https://www.youtube.com/embed/9d8wWcJLnFI" frameborder="0" allowfullscreen=""></iframe>
+
+
+         <button id="fullscreenButton" onclick="toggleFullscreen()">Pantalla completa</button>
+
+    
+
+    <script src="script.js"></script>
 </div>
  </div>
  <div><a>Description</a></div>
