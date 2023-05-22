@@ -11,7 +11,7 @@
             </div>
 
         <div class="row">
-        <div class="col-md-12">
+       
             
              <aside class="col-12 col-sm-12 col-md-12 col-lg-3 list_sideBar"> 
                  <div class="title">
@@ -50,7 +50,7 @@
                 <a class="btn btn-primary" runat="server" href="~//Views/Adults">Top Rank &raquo;</a>
             </li>--%>
                  </aside>
-            </div>
+            
         <div class="col-12 col-sm12 col-md-10 col-lg-7 midcontent"> 
 
         <p style="border:1px solid ; padding:20px;  " >
@@ -60,6 +60,21 @@
 No matter your kink, we have the link and everything but the kitchen sink—if you're experiencing problems, issues, or have any suggestions or ideas send them our way and tell us what you think.</p>
         <p><a href="https://nothingames.com/" class="btn btn-primary btn-lg">Read More &raquo;</a></font>
             </font></p>
+            <div class="all_items last_coment">
+                <h1>Massive Catalog of Free Sex and Porn Games on NothinGames</h1>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 image">
+                            <a class="team__link" href="App_Themes/troubled_legacy.jpg">
+                                <div class="team__img-container">
+
+                                </div>
+                           Troubled Legacy </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
     </div>
            
     <div class="row">
@@ -71,7 +86,7 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
             
         </div>
          </div>
-        </div>
+        
     </article>
     <style>
         logo{
