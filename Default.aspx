@@ -58,18 +58,18 @@
                 <font style="vertical-align:inherit; overflow:hidden;">
             Welcome to Nothing Games — your one-stop site for the best Sex browser games with more porn games added daily! Whether 18+ teen, new ideas for a roleplay scene, or if you're exploring ideas outside your boundaries you can always find it here on the newly improved NOTHING GAMES.
 No matter your kink, we have the link and everything but the kitchen sink—if you're experiencing problems, issues, or have any suggestions or ideas send them our way and tell us what you think.</p>
-        <p><a href="https://nothingames.com/" class="btn btn-primary btn-lg">Read More &raquo;</a></font>
-            </font></p>
+        <%--<p><a href="https://nothingames.com/" class="btn btn-primary btn-lg">Read More &raquo;</a></font>
+            </font></p>--%>
             <div class="all_items last_coment">
                 <h1>Massive Catalog of Free Sex and Porn Games on NothinGames</h1>
                 <div class="item">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3 image">
-                            <a class="team__link" href="App_Themes/troubled_legacy.jpg">
+                            <img class="absolute owl-lazy" style="width: 139.453px; margin-right: 10px;" src="App_Themes/elixir-of-life.jpg">
                                 <div class="team__img-container">
 
                                 </div>
-                           Troubled Legacy </a>
+                           Troubled Legacy </>
                         </div>
                     </div>
                 </div>
@@ -141,6 +141,15 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
             cursor: pointer;
             border-block:double;
         }
+ .midcontent h1{
+
+     margin-bottom: 15px;
+     font-size: 18px;
+     color:aliceblue;
+     line-height: 30px;
+     text-transform: uppercase;
+     font-weight:500;
+ }
     </style>
   
      
