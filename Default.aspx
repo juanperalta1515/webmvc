@@ -64,18 +64,91 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
                 <h1>Massive Catalog of Free Sex and Porn Games on NothinGames</h1>
                 <div class="item">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 image">
-                            <img class="absolute owl-lazy" style="width: 139.453px; margin-right: 10px;" src="App_Themes/elixir-of-life.jpg">
-                                <div class="team__img-container">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 image">    
+                            <img class="absolute owl-lazy" style="width: 139.453px; margin-right: 10px;" src="App_Themes/elixir-of-life.jpg" alt="Elixir of Life">
+                            </div>
+                            <div class="text col-12 col-sm12 col-md12 col-lg9">
+                            <h3>
 
+                            <a runat="server" href="~/Views/BigDick">Elixir of Life&raquo;</a>
+                                </h3>
+                                <p>Live the life of a guy who's semen is one of the most expensive liquids on the planet.</p>
+                                <div class="team__img-container">
+                                    
+                                    </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 image">        
+                            <img class="absolute owl-lazy" style="width: 140.906px; margin-right: 10px;" src="App_Themes/jackis-world.jpg" alt="Jacki's World">
+                            </div>
+                            <div class="text col-12 col-sm12 col-md12 col-lg9">
+                            <h3>
+                            <a runat="server" href="~/Views/BigTits">Jacki's World</a>
+                                </h3>
+                                <p>A young woman with a passion for bringing joy to others, finds herself caught up in a whole lot a steamy situations. </p>
+                                <div class="team__img-container">
+                                    
                                 </div>
-                           Troubled Legacy </>
+                                </div>
+                           </div>
+                        </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 image">        
+                            <img class="absolute owl-lazy" style="width: 140.906px; margin-right: 10px;" src="App_Themes/the-company.jpg" alt="The Company ">
+                            </div>
+                            <div class="text col-12 col-sm12 col-md12 col-lg9">
+                            <h3>
+                            <a href="https://mopoga.com/embed/the-company/">The Company </a>
+                                </h3>
+                                <p>Choose a gender and see how this tale of corporate espionage, mind control and transformation unfolds.. </p>
+                                <div class="team__img-container">
+                                    
+                                </div>
+                                </div>
+                           </div>
+                        </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 image">        
+                            <img class="absolute owl-lazy" style="width: 140.906px; margin-right: 10px;" src="App_Themes/small-town.jpg" alt="Small Town ">
+                            </div>
+                            <div class="text col-12 col-sm12 col-md12 col-lg9">
+                            <h3>
+                            <a href="https://mopoga.com/embed/small-town/">Small Town </a>
+                                </h3>
+                                <p>The male protagonist suffers from a rare medical condition and will die if he gets too horny! You you survive this lewd aventure? </p>
+                                <div class="team__img-container">
+                                    
+                                </div>
+                                </div>
+                           </div>
+                        </div>
+                    <div class="item">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 image">        
+                            <img class="absolute owl-lazy" style="width: 140.906px; margin-right: 10px;" src="App_Themes/life-at-university.jpg" alt="Life at University ">
+                            </div>
+                            <div class="text col-12 col-sm12 col-md12 col-lg9">
+                            <h3>
+                            <a href="https://mopoga.com/embed/life-at-university/">Life at University </a>
+                                </h3>
+                                <p>A slutification life sim, will you attain your law degree or end up trapped in a world of drugs and prostitution? </p>
+                                <div class="team__img-container">
+                                    
+                                </div>
+                                </div>
+                           </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-    </div>
+            
+
+    
            
     <div class="row">
         <div class="col-md-2">          
@@ -116,7 +189,9 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
 .sidebar li {
   margin-bottom: 10px;
 }
-
+element.style{
+    vertical-align:inherit;
+}
 .sidebar a {
   text-decoration: none;
   color: darkorange;
@@ -141,7 +216,16 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
             cursor: pointer;
             border-block:double;
         }
- .midcontent h1{
+  .midcontent h1{
+           
+     margin-bottom: 15px;
+     font-size: 18px;
+     color:aliceblue;
+     line-height: 30px;
+     text-transform: uppercase;
+     font-weight:500;
+ }
+  .midcontent h3{
 
      margin-bottom: 15px;
      font-size: 18px;
@@ -150,6 +234,18 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
      text-transform: uppercase;
      font-weight:500;
  }
+  .midcontent .item .text h3 a{
+     color:aliceblue;
+    display:block;
+     white-space:nowrap,
+ }
+
+    .midcontent .item {
+     color:darkorange;
+    padding-bottom: 15px;
+    margin-bottom:15px;
+    border-bottom: 1px solid darkorange;
+    }
     </style>
   
      

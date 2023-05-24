@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div > 
      <div class="embed-container">
-    <iframe src="https://gamcore.com/games/the_secret_of_the_house_ch_2" frameborder="0" allowfullscreen="20"></iframe>
+    <iframe allowfullscreen="false" src="https://mopoga.com/embed/jackis-world/" frameborder="1200" width="1050" height="10" scrolling="yes" onscroll="10px" ></iframe>
 
 </div>
  </div>
