@@ -4,11 +4,13 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div>
      <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/9d8wWcJLnFI" frameborder="0" allowfullscreen=""></iframe>
-</div>
+         <iframe allowfullscreen="yes" src="https://mopoga.com/embed/life-at-university/" frameborder="1200" width="1000" height="10" scrolling="yes" onscroll="10px" ></iframe>
+
  </div>
- <div><a>Description</a></div>
- 
+ </div>
+
+ <textarea maxlength="500" name="comment" id="comment2" class="form-control" placeholder="Comenta sobre este juego..."></textarea> 
+    <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea><br><br>
  <div>
      <style>
 		.comment {
@@ -18,23 +20,15 @@
 		}
 	</style>
 
-      Observaciones:<br />
-                <asp:TextBox ID="txtObservaciones" TextMode="MultiLine" runat="server" Style="width: 100%" Rows="5"></asp:TextBox>
-            
-	<h1>Comments</h1>
+	
 	<div onsubmit="submitComment(event)">
 		<label for="name">Name:</label>
 		<input type="text" id="name" name="name"><br><br>
 		
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email"><br><br>
-		
-		<label for="comment">Comment:</label><br>
-		<textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
-		
-		<input type="submit" value="Submit">
-	</div>
-	<div id="comments"></div>
+		<input type="submit" class="btn" id="post-comment" value="Post comment">
+
 	<script>
         function submitComment(event) {
             event.preventDefault();
@@ -52,7 +46,7 @@
             commentSection.appendChild(commentDiv);
         }
     </script>
-
+        </div>
  </div>
  <div></div>
  <div></div>
@@ -65,14 +59,18 @@
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
+    margin-top:100px;
 }
 .embed-container iframe {
     position: absolute;
     top:0;
     left: 0;
-    width: 90%;
+    width: 100%;
     height: 90%;
 }
+
   </style>
 
 </asp:Content>
+
+

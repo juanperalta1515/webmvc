@@ -3,15 +3,13 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div>
-     <div class="embed-container">
-        
-    <iframe src="https://fgn.cdn.serverable.com/common/flashes/nf/therapist/index.html" frameborder="50" ></iframe>
-</div> <a href="https://fgn.cdn.serverable.com/flashes/nf/therapist/index.html" title="Al blog de recursos de campusMVP">Ir al blog de campusMVP</a>
-     <p><a<link rel="image_src" href="https://fgn.cdn.serverable.com/common/flashes/cc/p/pokesluts.jpg" /></a></p>
-      <p><a <link rel="alternate" href="https://fgn.cdn.serverable.com/common/flashes/nf/therapist/index.html"/> class="btn btn-primary btn-lg">Therapist &raquo;</a></p>
+     <div class="embed-container">       
+     <iframe allowfullscreen="true" src="https://mopoga.com/embed/the-company/" frameborder="1200" width="950" height="10" scrolling="yes" onscroll="900px" ></iframe>
+  </div>
  </div>
- <div><a>Description</a></div>
  
+ <textarea maxlength="500" name="comment" id="comment2" class="form-control" placeholder="Comenta sobre este juego..."></textarea> 
+    <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea><br><br>
  <div>
      <style>
 		.comment {
@@ -21,23 +19,15 @@
 		}
 	</style>
 
-      Observaciones:<br />
-                <asp:TextBox ID="txtObservaciones" TextMode="MultiLine" runat="server" Style="width: 100%" Rows="5"></asp:TextBox>
-            
-	<h1>Comments</h1>
+	
 	<div onsubmit="submitComment(event)">
 		<label for="name">Name:</label>
 		<input type="text" id="name" name="name"><br><br>
 		
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email"><br><br>
-		
-		<label for="comment">Comment:</label><br>
-		<textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
-		
-		<input type="submit" value="Submit">
-	</div>
-	<div id="comments"></div>
+		<input type="submit" class="btn" id="post-comment" value="Post comment">
+
 	<script>
         function submitComment(event) {
             event.preventDefault();
@@ -53,9 +43,13 @@
 				<p>${comment}</p>
 			`;
             commentSection.appendChild(commentDiv);
+            requestFullscreen();
+
+                element.mozRequestFullScreen();
+            }
         }
     </script>
-
+        </div>
  </div>
  <div></div>
  <div></div>
@@ -66,14 +60,16 @@
     .embed-container {
     position: relative;
     padding-bottom: 75%;
+    margin-top:100px;
     height: 0;
+    
     overflow: hidden;
 }
 .embed-container iframe {
-    position: center;
+    position: absolute;
     top:0;
     left: 0;
-    width: 90%;
+    width: 100%;
     height: 90%;
 }
   </style>

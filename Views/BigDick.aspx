@@ -1,13 +1,9 @@
 ﻿<%@ Page Title="BigDick" Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="BigDick.aspx.cs" Inherits="webmvc.Views.BigDick" %>
 
-
-
-
-
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div>
      <div class="embed-container">
-    <iframe allowfullscreen="false" src="https://mopoga.com/embed/elixir-of-life/" frameborder="1200" width="1050" height="10" scrolling="yes" onscroll="10px" ></iframe>
+    <iframe allowfullscreen="true" src="https://mopoga.com/embed/elixir-of-life/" frameborder="1200" width="950" height="10" scrolling="yes" onscroll="10px" ></iframe>
 </div>
  </div>
  <textarea maxlength="500" name="comment" id="comment2" class="form-control" placeholder="Comenta sobre este juego..."></textarea> 
@@ -48,7 +44,7 @@
         }
    
     </script>
-
+        </div>
  </div>
  <div></div>
  <div></div>

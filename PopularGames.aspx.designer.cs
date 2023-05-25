@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace webmvc.Views
+namespace webmvc
 {
 
 
-    public partial class BlowJob
+    public partial class PopularGames
     {
     }
 }

@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <div > 
      <div class="embed-container">
-    <iframe allowfullscreen="false" src="https://mopoga.com/embed/jackis-world/" frameborder="1200" width="1050" height="10" scrolling="yes" onscroll="10px" ></iframe>
+    <iframe allowfullscreen="yes" src="https://mopoga.com/embed/jackis-world/" frameborder="1200" width="1000" height="10" scrolling="yes" onscroll="10px" ></iframe>
 
 </div>
  </div>
@@ -58,14 +58,16 @@
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
+    margin-top:100px;
 }
 .embed-container iframe {
     position: absolute;
     top:0;
     left: 0;
-    width: 90%;
+    width: 100%;
     height: 90%;
 }
+
   </style>
 
 </asp:Content>
