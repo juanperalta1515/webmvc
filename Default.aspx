@@ -61,7 +61,7 @@ No matter your kink, we have the link and everything but the kitchen sink—if y
         <%--<p><a href="https://nothingames.com/" class="btn btn-primary btn-lg">Read More &raquo;</a></font>
             </font></p>--%>
             <div class="all_items last_coment">
-                <h1>Massive Catalog of Free Sex and Porn Games on NothinGames</h1>
+                <h1><strong>Massive Catalog of Free Sex and Porn Games on Nothin Games</strong></h1>
                 <div class="item">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3 image">    

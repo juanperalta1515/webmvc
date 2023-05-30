@@ -5,8 +5,44 @@
                 <img src="App_Themes/output-onlinegiftools.gif" width="420" height="220" margin-left="500px" />
            
             </div>
-
         <div class="row">
+              <aside class="col-12 col-sm-12 col-md-12 col-lg-3 list_sideBar"> 
+                 <div class="title">
+                     <font style="vertical-align:inherit;">
+                         <font style="vertical-align:inherit;">This Week</font>
+                     </font>
+                 </div>
+            <li>
+                 <span>
+                    <img src="App_Themes/king_.png" font style="vertical-align:inherit" />
+                </span>
+                <a class="btn btn-primary" runat="server" href="~/BestGames">Best Games &raquo;</a>             
+            </li>
+             <li>
+                 <span>
+                    <img src="App_Themes/news.png" font style="vertical-align:inherit" />
+                </span>
+                <a class="btn btn-primary" runat="server" href="~/NewGames">New Games &raquo;</a>
+              </li>   
+            <li>
+                <span>
+                    <img src="App_Themes/popular.png" font style="vertical-align:inherit" />
+                </span>
+                <a class="btn btn-primary" runat="server" href="~/PopularGames">Popular Games &raquo;</a>
+            </li>
+            <%--<li>
+                <a class="btn btn-primary" runat="server" href="~/Views/BigDick">Top Games&raquo;</a>
+            </li>--%>
+            <li>
+                <span>
+                    <img src="App_Themes/votados.png" font style="vertical-align:inherit" />
+                </span>
+                <a class="btn btn-primary" runat="server" href="~/TopFavourites">Top Favourites &raquo;</a>
+            </li>
+             <%--    <li>
+                <a class="btn btn-primary" runat="server" href="~//Views/Adults">Top Rank &raquo;</a>
+            </li>--%>
+                 </aside>
        <div>
             
         <div class="col-12 col-sm12 col-md-10 col-lg-7 midcontent"> 
