@@ -5,10 +5,14 @@
  <div>
      <div class="embed-container">       
      <iframe allowfullscreen="true" src="https://mopoga.com/embed/the-company/" frameborder="1200" width="950" height="10" scrolling="yes" onscroll="900px" ></iframe>
+    
   </div>
  </div>
+      <h3>Comentarios</h3>
+  
  
- <textarea maxlength="500" name="comment" id="comment2" class="form-control" placeholder="Comenta sobre este juego..."></textarea> 
+<lu id="comment-list"></lu>
+ <textarea maxlength="200" name="comment-list" id="comment" class="form-control" placeholder="COMMENT ABOUT THIS GAME..."></textarea> 
     <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea><br><br>
  <div>
      <style>
@@ -20,34 +24,47 @@
 	</style>
 
 	
-	<div onsubmit="submitComment(event)">
+	<div submit="addComment(event)">
 		<label for="name">Name:</label>
 		<input type="text" id="name" name="name"><br><br>
 		
-		<label for="email">Email:</label>
-		<input type="email" id="email" name="email"><br><br>
+		<label for="username">User Name:</label>
+		<input type="text" id="username" name="username"><br><br>
 		<input type="submit" class="btn" id="post-comment" value="Post comment">
 
 	<script>
-        function submitComment(event) {
-            event.preventDefault();
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-            const comment = document.getElementById("comment").value;
-            const commentSection = document.getElementById("comments");
+        function addComment() {
+            
+            const nameInput = document.getElementById("name").value;
+            const usernameInput = document.getElementById("username").value;
+            const commentInput = document.getElementById("comment-input").value;
+            var commentList = document.getElementById("comment-list");
+            var name = nameInput.value;
+            var comment = commentInput.value;
+            var username = usernameInput;
 
-            const commentDiv = document.createElement("div");
-            commentDiv.classList.add("comment");
-            commentDiv.innerHTML = `
-				<p><strong>${name} (${email})</strong></p>
-				<p>${comment}</p>
-			`;
-            commentSection.appendChild(commentDiv);
-            requestFullscreen();
+            var commentItem = document.createElement("li");
+           
+            commentItem.innerHTML =
+                "<strong>" + name + username + "</strong >"+
+				comment
+			;
+            commentList.appendChild(commentItem);
+            
+            nameInput.value = "";
+            commentInput.value = "";
 
-                element.mozRequestFullScreen();
-            }
-        }
+            var commentForm = document.getElementById("form-control");
+            commentForm.addEventListener("submit", function (event) {
+                event.preventDefault(); // Prevenir el envío del formulario
+                 // Añadir el comentario
+                addComment();
+            });
+            
+
+            
+        };
+        
     </script>
         </div>
  </div>
@@ -71,6 +88,15 @@
     left: 0;
     width: 100%;
     height: 90%;
+}
+#comment-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#comment-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
 }
   </style>
 
